@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新年倒计时</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="fireworks-container"></div>
+    <div class="container">
+        <h1>距离新2025年还有</h1>
+        <div class="countdown">
+            <div class="time-block">
+                <span id="days">00</span>
+                <span class="label">天</span>
+            </div>
+            <div class="time-block">
+                <span id="hours">00</span>
+                <span class="label">时</span>
+            </div>
+            <div class="time-block">
+                <span id="minutes">00</span>
+                <span class="label">分</span>
+            </div>
+            <div class="time-block">
+                <span id="seconds">00</span>
+                <span class="label">秒</span>
+            </div>
+        </div>
+        <div class="message" id="message">
+            <h2>2025新年快乐！</h2>
+            <p id="blessing"></p>
+        </div>
+    </div>
+    <audio id="bgMusic" loop>
+        <source src="./music.mp3" type="audio/mpeg">
+    </audio>
+    <script src="https://cdn.jsdelivr.net/npm/fireworks-js@2.x/dist/index.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
